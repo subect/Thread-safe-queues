@@ -32,7 +32,3 @@ func (safeQueue *SliceQueue) OutQueue() interface{} {
 	safeQueue.queue = safeQueue.queue[1:]
 	return v
 }
-
-func main() {
-
-}
